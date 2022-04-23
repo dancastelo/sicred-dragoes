@@ -1,0 +1,74 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto';
+}
+/*-------------------------Início Login-------------------------*/
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 6% 10% 0;
+    border-radius: 5px;
+    background-color: #01131d;
+    max-width: 60vw;
+}
+.box .coluna{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.box .coluna-esquerda{
+    padding: 100px 60px;
+}
+.box .coluna-esquerda h2{
+    margin-bottom: 20px;
+}
+.box .coluna-esquerda h2 span{
+    color: #6389ae;
+    font-size: 38px;
+}
+.box .coluna-esquerda button{
+    width: 100%;
+    background-color: #6389ae;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .4s linear;
+}
+.box .coluna-esquerda button:hover{
+    background-color: #012133;
+}
+.box .coluna-direita{
+}
+.box .coluna-direita img{
+    display: block;
+    width: 300px;
+}
+/*---------------------------Fim Login--------------------------*/
+/*-------------------------Início Header------------------------*/
+.btn-logout{
+    padding: 10px 30px;
+    background-color: #6389ae;
+    border: 0;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.btn-logout:hover {
+    cursor: pointer;
+}
+/*---------------------------Fim Header-------------------------*/
+.btn-adicionar{
+    padding: 8px;
+    background-color: #579357;
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.btn-adicionar svg{
+    margin-left: 10px;
+}

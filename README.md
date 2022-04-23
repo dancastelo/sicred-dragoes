@@ -1,8 +1,12 @@
-Sicred - Dragons
+# Sicred-Dragons
 
-👩🏻‍💻 Sobre o Projeto:
-Para logar utilize o usuário: master e a senha 123456
+## Sobre o Projeto
 
-🔧 Instalação
-Rode o comando npm install
-Rode o comando npm start
+Para logar utilize: 
+- usuário: master
+- senha: 123456
+
+### Iniciar aplicação
+
+Rode o comando `npm install`
+Rode o comando `npm start`
